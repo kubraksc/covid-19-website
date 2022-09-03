@@ -1,2 +1,2 @@
-# önizleme
+# Önizleme
 ![](onizleme.png)
