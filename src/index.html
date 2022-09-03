@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body class="flex min-h-screen bg-gray-200">
+    <!-- left side bar -->
+    <div
+        class="w-16 bg-white border-r-[1px] border-gray-200 flex flex-col items-center justify-between text-xl py-5 text-gray-400">
+        <div class="flex flex-col gap-y-12 text-center">
+            <i class="fa-solid fa-bars text-blue-500"></i>
+            <nav class="flex flex-col gap-y-10 items-center">
+                <div class="border-r-[2px] border-blue-500 w-16 text-center">
+                    <i class="fa-solid fa-chart-pie"></i>
+                </div>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-clock"></i>
+                <i class="fa-solid fa-chart-line"></i>
+                <i class="fa-regular fa-user"></i>
+            </nav>
+        </div>
+        <i class="fa-solid fa-gear"></i>
+    </div>
+    <div class="flex-1 flex flex-col   ">
+        <!-- top bar -->
+        <div class="h-16 bg-white w-full flex justify-between items-center px-5">
+            <!-- logo -->
+            <div class="text-gray-600 flex gap-x-3 items-center">
+                <i class="fa-solid fa-virus-covid text-2xl"></i>
+                <span class="font-bold">Covid 19</span>
+            </div>
+            <!-- top bar right side -->
+            <div class="flex gap-x-16 items-center">
+                <!-- search bar -->
+                <div class="relative">
+                    <i class="absolute top-2 left-3 fa-solid fa-magnifying-glass text-gray-400"></i>
+                    <input type="text" class="rounded-lg border-[1px] border-gray-300 pl-9 pr-2 py-1"
+                        placeholder="Search">
+                </div>
+                <div class="flex gap-x-7 items-center">
+                    <i class="fa-regular fa-bell text-2xl text-gray-400"></i>
+                    <div class="flex gap-x-3 items-center">
+                        <img class="h-10 w-10 object-cover rounded-full"
+                            src="https://t3.ftcdn.net/jpg/03/67/46/48/360_F_367464887_f0w1JrL8PddfuH3P2jSPlIGjKU2BI0rn.jpg"
+                            alt="">
+                        <span class="font-semibold text-gray-600">Jane Doe</span>
+                        <i class="fa-solid fa-chevron-down text-gray-400 text-sm"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="bg-gray-200 flex-1   p-4  flex gap-10  ">
+            <div class=" flex flex-col gap-2  ">
+                <!-- content left side -->
+                <div class="  bg-[#E5E7EB]">
+
+                    <div class="font-bold text-xl  pb-[3px] text-[#34334E] ">Activity</div>
+
+                    <!-- Activity -->
+                    <div class="grid grid-cols-2 gap-5   ">
+
+                        <div class=" bg-gradient-to-r from-[#33BBF7] via-[#76D3FC] to-[#A0E1FD] tip ">
+                            <div class="smart">
+                                <div class="value">
+                                    <i class="  fa-regular fa-bell text-xl text-[#4BC5F8]"></i>
+                                </div>
+                                <i class="fa-solid fa-ellipsis text-white"></i>
+                            </div>
+
+                            <div class=" sablon ">
+                                <span class="beauty">1472</span>
+                                <div class=" kutu ">
+                                    <span class="total">Active Alert</span>
+                                    <div class="   sayı">
+                                        <span class=" deger ">+2.36%</span>
+                                        <i class="fa-solid fa-caret-up text-xs text-white"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="bg-gradient-to-r from-[#41caa3] via-[#4DDFB8]  to-[#66f1cc] tip  ">
+                            <div class="smart">
+                                <div class="value">
+                                    <i class="  fa-solid fa-user-plus text-xl  text-[#47DAB0] "></i>
+
+                                </div>
+                                <i class="fa-solid fa-ellipsis text-white"></i>
+                            </div>
+
+                            <div class=" sablon ">
+                                <span class="beauty">1432</span>
+                                <div class=" kutu">
+                                    <span class="total">Active User</span>
+                                    <div class="sayı">
+                                        <span class="deger">+2.06%</span>
+                                        <i class="fa-solid fa-caret-up text-xs text-white"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class=" bg-gradient-to-r from-[#6c49f8]  via-[#7C5CFF] to-[#a18bf8] tip">
+                            <div class="smart">
+                                <div class="value">
+                                    <i class=" text-[#6E4BFF] text-xl fa-solid fa-users"></i>
+                                </div>
+                                <i class="fa-solid fa-ellipsis text-white"></i>
+                            </div>
+
+                            <div class=" sablon">
+                                <span class="beauty">6432</span>
+                                <div class=" kutu">
+                                    <span class="total">Totall Users</span>
+                                    <div class="  sayı">
+                                        <span class="deger">+2.46%</span>
+                                        <i class="fa-solid fa-caret-up text-xs text-white"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class=" bg-gradient-to-r from-[#397CFF]  via-[#5C92FF] to-[#75A4FF] tip">
+                            <div class="smart">
+                                <div class="value"><i class="  fa-regular fa-bell text-xl text-[#4282FE]"></i>
+                                </div>
+                                <i class="fa-solid fa-ellipsis text-white"></i>
+                            </div>
+
+                            <div class=" sablon">
+                                <span class="beauty">5472</span>
+                                <div class=" kutu">
+                                    <span class=" total ">Totall Alert</span>
+                                    <div class=" sayı  ">
+                                        <span class="deger">+3.36%</span>
+                                        <i class="fa-solid fa-caret-up text-xs text-white"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                <!-- left-underside -->
+                <div class="flex flex-col pt-3  pb-2">
+                    <div class="flex justify-between">
+                        <span class="text-[#34334E] font-bold text-xl">Analytics</span>
+                        <div class="bg-white h-8 w-8 rounded-xl flex justify-center items-center">
+                            <i class="text-[#4FC6F8] fa-solid fa-sliders"></i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex gap-8  ">
+
+
+                    <div class=" h-36 w-36 bg-white  rounded-2xl pt-4 shadow-lg shadow-gray-300 ">
+                        <div class="bg-[#ECF9FF]  border-l-2 border-[#30BBF6] h-8 items-center flex">
+                            <span class="text-xs pl-4 text-[#30BBF6] font-medium ">Patiend Review</span>
+                        </div>
+                        <!-- left-underside-left -->
+                        <div class="gap-3 pl-4 flex flex-col pt-2 ">
+                            <span class="text-xs text-gray-400 font-medium ">Satisfaction</span>
+                            <span class="text-xs  text-gray-400 font-medium">Test Overview</span>
+                            <span class="text-xs  text-gray-400 font-medium">Response Rate</span>
+                        </div>
+                    </div>
+
+                    <!-- left-underside-right -->
+                    <div class="flex-1 h-36 bg-white rounded-2xl flex flex-col p-4 shadow-lg shadow-gray-300">
+                        <div class="flex-1 flex">
+                            <div class="w-40 bg-white flex flex-col p-2 gap-2">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-xs">Positive Review</span>
+                                    <span class="text-xs font-medium">%60</span>
+                                </div>
+
+                                <div class=" h-2 rounded-md bg-gray-200 ">
+                                    <div class="w-28 h-2 rounded-lg bg-[#4FC6F8]"></div>
+                                </div>
+
+                            </div>
+                            <div class="flex-1 bg-white justify-center flex items-center">
+                                <div
+                                    class="bg-[#4FC6F8] rounded-2xl h-10 w-10 items-center flex justify-center shadow-lg shadow-gray-300">
+                                    <i class="text-2xl text-white fa-solid fa-face-laugh"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="flex-1 flex">
+                            <div class="w-40 bg-white flex flex-col p-2 gap-2">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-xs">Negative Review</span>
+                                    <span class="text-xs font-medium">%20</span>
+                                </div>
+
+                                <div class=" h-2 rounded-md bg-gray-200 ">
+                                    <div class="w-16 h-2 rounded-lg bg-[#4FC6F8]"></div>
+                                </div>
+
+                            </div>
+                            <div class="flex-1 bg-white justify-center flex items-center">
+                                <div
+                                    class="bg-[#4FC6F8] rounded-2xl h-10 w-10 items-center flex justify-center shadow-lg shadow-gray-300">
+                                    <i class="text-2xl text-white fa-solid fa-face-frown"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+            <!-- content right side -->
+            <div class="flex-1 flex-col flex gap-y-6">
+                <div class="flex-col flex ">
+                    <div class="flex justify-between">
+                        <div class="  text-[#34334E] font-bold text-xl">Calendar</div>
+                        <div class=" flex  gap-5 items-center">
+                            <span class="text-sm text-gray-700">March 2020</span>
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-angle-left p-1 text-gray-500 text-sm bg-white rounded-md"></i>
+                                <i class="fa-solid fa-angle-right  p-1 bg-white text-gray-500 text-sm rounded-md"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex  h-24 rounded-3xl    ">
+                        <div class="flex-1 w-0 flex gap-10 px-6 overflow-hidden justify-end items-center bg-white rounded-2xl ">
+                            <div class="model">
+                                <span class="tarz">Fri</span>
+                                <span class="sekil">19</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Sat</span>
+                                <span class="sekil">20</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Sun</span>
+                                <span class="sekil">21</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Mon</span>
+                                <span class="sekil">22</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Tue</span>
+                                <span class="sekil">23</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Wed</span>
+                                <span class="sekil">24</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Thu</span>
+                                <span class="sekil">25</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Fri</span>
+                                <span class="sekil">26</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Sat</span>
+                                <span class="sekil">27</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Sun</span>
+                                <span class="sekil">28</span>
+                            </div>
+                            <div class="model">
+                                <span class="tarz">Mon</span>
+                                <span class="sekil">29</span>
+                            </div>
+                            <div class="flex flex-col items-center  bg-[#3FC0F9] py-5 px-3 rounded-full gap-2">
+                                <span class="text-xs text-gray-200 font-medium">Tue</span>
+                                <span class="text-xs text-gray-200 font-medium">30</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col ">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-[#34334E] font-bold text-xl">Patient Application</h2>
+                        <div class="text-acikmavi flex gap-x-2">
+                            <div class="rounded px-2 py-1 bg-white">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+
+                            <div class="rounded px-2 py-1 bg-white">
+                                <i class="fa-solid fa-sliders"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex flex-col gap-5">
+                    <div class=" h-16 rounded-xl bg-white pr-3 ">
+                        <div class="flex ">
+                            <div class="flex-1 flex gap-2 items-center justify-center h-16 p-2 ">
+                                <div class="">
+                                    <img class="w-14 rounded-full" src="../29a-film-emulator.jpg" alt="" srcset="">
+                                </div>
+                                <div class="flex-1">
+                                    <span class="text-sm">Katerina Adams</span>
+                                </div>
+                                  
+                                  
+                            </div>
+                            <div class="flex-1  flex gap-2 items-center justify-center h-16">
+                                <div class="bg-[#E1F5FE] px-2 rounded-lg">
+                                    <i class="fa-regular fa-user text-[#4FDDB5]"></i>
+                                </div>
+                               
+                                 <span class="text-xs text-gray-700">Female</span>
+                            </div>
+                            <div class="flex-1 flex gap-2 items-center justify-center  h-16">
+                                <span class=" text-gray-700 text-xs">33 yrs</span>
+                            </div>
+                            <div class="flex-1  flex gap-2 items-center justify-end h-16">
+                                 <div class="bg-[#E1F5FE] p-2 rounded-xl">
+                                    <span class="text-sm text-[#34BCF6]  ">View Profile</span>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" h-16 rounded-xl bg-white pr-3 ">
+                        <div class="flex ">
+                            <div class="flex-1 flex gap-2 items-center justify-center  h-16 p-2 ">
+                                <div class="">
+                                    <img class="w-14 rounded-full" src="../baeuty.jpg" alt="" srcset="">
+                                </div>
+                                <div class="flex-1">
+                                    <span class="text-sm">Hailey S. Tamson</span>
+                                </div>
+                                  
+                                 
+                            </div>
+                            <div class="flex-1  flex gap-2 items-center justify-center  h-16">
+                                <div class="bg-[#E1F5FE] px-2 rounded-lg">
+                                    <i class="fa-regular fa-user text-[#4FDDB5]"></i>
+                                </div>
+                                 <span class=" text-xs text-gray-700">Female</span>
+                            </div>
+                            <div class="flex-1 flex gap-2 items-center justify-center  h-16">
+                                <span class=" text-gray-700 text-xs">17 yrs</span>
+                            </div>
+                            <div class="flex-1  flex gap-2 items-center justify-end h-16">
+                                 <div class="bg-[#E1F5FE] p-2 rounded-xl">
+                                    <span class="text-sm text-[#34BCF6]  ">View Profile</span>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" h-16 rounded-xl bg-white pr-3 ">
+                        <div class="flex ">
+                            <div class="flex-1 flex gap-2 items-center justify-center h-16 p-2 ">
+                                <div class="">
+                                    <img class="w-14 rounded-full" src="../blondeiki.jpg" alt="" srcset="">
+                                </div>
+                                <div class="flex-1">
+                                    <span class="text-sm">Freya Secret</span>
+                                </div>
+                                 
+                                  
+                            </div>
+                            <div class="flex-1  flex gap-2 items-center justify-center h-16">
+                                <div class="bg-[#E1F5FE] px-2 rounded-lg">
+                                    <i class="fa-regular fa-user text-[#4FDDB5]"></i>
+                                </div>
+                                 <span class="text-xs text-gray-700">Female</span>
+                            </div>
+                            <div class="flex-1 flex gap-2 items-center justify-center  h-16">
+                                <span class="text-xs text-gray-700 ">24 yrs</span>
+                            </div>
+                            <div class="flex-1  flex gap-2 items-center justify-end h-16">
+                                 <div class="bg-[#E1F5FE] p-2 rounded-xl">
+                                    <span class="text-sm text-[#34BCF6]  ">View Profile</span>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" h-16 rounded-xl bg-white pr-3 ">
+                        <div class="flex ">
+                            <div class="flex-1 flex gap-2 items-center justify-center h-16 p-2 ">
+                                 <div class="">
+                                    <img class="w-14 rounded-full" src="../uc.jpg" alt="" srcset="">
+                                 </div>
+                                 <div class="flex-1">
+                                    <span class="text-sm">Ronda M. Rousy</span>
+                                 </div>
+                                  
+                                  
+                            </div>
+                            <div class="flex-1  flex gap-2 items-center justify-center  h-16">
+                                <div class="bg-[#E1F5FE] px-2 rounded-lg">
+                                    <i class="fa-regular fa-user text-[#4FDDB5]"></i>
+                                </div>
+                                 <span class=" text-xs text-gray-700">Female</span>
+                            </div>
+                            <div class="flex-1 flex gap-2 items-center justify-center  h-16">
+                                <span class="text-xs text-gray-700 ">26 yrs</span>
+                            </div>
+                            <div class="flex-1  flex gap-2 items-center justify-end  h-16">
+                                 <div class="bg-[#E1F5FE] p-2 rounded-xl">
+                                    <span class="text-sm text-[#34BCF6]  ">View Profile</span>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+
+</body>
+
+</html>

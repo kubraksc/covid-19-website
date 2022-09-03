@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tip { @apply shadow-lg shadow-gray-400 h-36 rounded-2xl p-4 flex flex-col gap-4 }
+.tip .smart { @apply flex justify-between}
+.tip .value { @apply  bg-gray-100 w-10 h-10 rounded-xl flex p-2  justify-center items-center }
+.tip .sablon { @apply flex flex-col }
+.tip .sablon .beauty { @apply font-bold text-white text-xl }
+.tip .sablon .kutu { @apply flex justify-between items-center }
+.tip .sablon .kutu .sayı { @apply p-1  rounded-2xl flex items-center gap-1 bg-gradient-to-tr from-[#ffffff48] to-transparent} 
+.tip .sablon .kutu .sayı .tik { @apply text-sm text-gray-100} 
+.tip .sablon .kutu .total { @apply text-white text-sm }
+.tip .sablon .kutu .sayı .deger { @apply text-xs text-white} 
+.tarz {@apply text-sm text-gray-400 font-medium}
+.sekil {@apply text-sm text-gray-600 font-medium }
+.model{@apply flex flex-col items-center gap-2 flex-1}
+
+
+
+  
+
+
